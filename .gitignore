@@ -1,0 +1,16 @@
+cfg.py
+WATCHER.sh
+src/.sass-cache/
+resources/uploads*
+resources/test*
+resources/*
+.settings
+.*project
+v_env/
+*.pyc
+*/local_config.py
+error.log
+*.sassc
+src/.idea*
+.DS_Store
+.idea*
