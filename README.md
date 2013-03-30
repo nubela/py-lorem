@@ -6,19 +6,19 @@ Lorem Ipsum library for Python
 Usage
 =====
 
-import loremipsum
+    import loremipsum
 
-#generate a random sentence of max 20 chars
-loremipsum.sentence(max_char=20)
+    #generate a random sentence of max 20 chars
+    loremipsum.sentence(max_char=20)
 
-#generate a random sentence of arbitrary length
-loremipsum.sentence()
+    #generate a random sentence of arbitrary length
+    loremipsum.sentence()
 
-#generate a random paragraph of max 100 chars
-loremipsum.paragraph(max_char=100)
+    #generate a random paragraph of max 100 chars
+    loremipsum.paragraph(max_char=100)
 
-#generate a random paragraph of arbitrary length
-loremipsum.paragraph
+    #generate a random paragraph of arbitrary length
+    loremipsum.paragraph
 
 License
 =======
