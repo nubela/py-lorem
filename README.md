@@ -3,6 +3,11 @@ py-lorem
 
 Lorem Ipsum library for Python
 
+Install
+=======
+
+    pip install py-lorem
+
 Usage
 =====
 
