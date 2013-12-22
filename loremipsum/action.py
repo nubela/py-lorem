@@ -11,7 +11,7 @@ def sentence(max_char=None):
     Gets a random sentence from a lorem ipsum paragraph.
     """
     para_text = paragraph()
-    sent = filter(lambda x: x != "", para_text.split("."))
+    sent = [x for x in para_text.split(".") if x != ""]
     s = choice(sent)
     return __strip(s[:max_char]) + "."
 
@@ -29,7 +29,7 @@ def __paragraphs():
     Get a list of paragraphs from the lorem file
     """
     f = open(__lorem_file__, 'r')
-    return filter(lambda x: x != "", f.readlines())
+    return [x for x in f.readlines() if x != ""]
 
 
 def __strip(str):
